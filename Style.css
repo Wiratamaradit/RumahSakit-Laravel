@@ -1,0 +1,137 @@
+.wrap-home {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-home {
+    width: auto;
+    background: #09C;
+    padding: 20px;
+    color: #fff;
+}
+
+.header-home::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.kiri {
+    float:left;
+    display:block;
+    width:200px
+}
+
+.sidebar-home {
+    background: rgb(183, 175, 175);
+    float: left;
+    width: 20%;
+    height: 100vh;
+    padding: 2%;
+    
+}
+
+.content-home {
+    background: rgb(247, 248, 248);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #09C;
+    font-size: 14px;
+    color: white;
+    width: auto;
+    padding: 5px 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-body {
+    font-family: Arial;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: url('IMG.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.container-login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: lightslategray;
+    box-shadow: 0 0 10px lightslategray;
+}
+
+.text-login-h1 {
+    text-align: left;
+    color: navy;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid navy;
+}
+
+.label-login {
+    text-align: left;
+    color: navy;
+    font-size: 24px;
+}
+
+.form-input-login {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: white;
+    border-bottom: 2px navy;
+    color: black;
+    font-size: 18px;
+}
+
+.form-button-login {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color: #2979ff;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+/* table,
+tr,
+td,
+th {
+    border: 2px solid black;
+    align-items:baseline;
+    position: fixed;
+    Border: Collapse;
+    width: max-content;
+    margin: auto;
+    Padding: 50px;
+    Border-bottom: 1px solid;
+    Border-right: 1px solid black;
+    background-color: darkgoldenrod;
+} */
